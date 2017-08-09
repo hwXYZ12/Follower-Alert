@@ -1,0 +1,28 @@
+.greenScreen{
+	background: rgba(0,255,0,1.0);
+}
+
+#followerAlert{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	transform: scale(0) rotateY(0deg);
+	transition: transform 1s, rotateY 1s;
+}
+
+#followerAlert.isVisible{
+	transform: scale(1) rotateY(720deg);
+	rotateY: 720deg;
+}
+
+#followerText{
+	font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+    color: #fff;
+    font-weight: bold;
+    text-shadow: 0 0 6px black, 0 0 6px black, 0 0 6px black, 0 0 6px black, 0 0 6px black,
+                0 0 6px black, 0 0 6px black, 0 0 6px black, 0 0 6px black, 0 0 6px black,
+                0 0 6px black, 0 0 6px black, 0 0 6px black, 0 0 6px black, 0 0 6px black,
+                0 0 6px black, 0 0 6px black, 0 0 6px black, 0 0 6px black, 0 0 6px black;
+	text-align: center;
+}
